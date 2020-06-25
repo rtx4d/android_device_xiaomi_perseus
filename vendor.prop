@@ -1,11 +1,8 @@
 # Audio
 ro.vendor.audio.soundfx.type=mi
 
-# Display
-ro.surface_flinger.has_wide_color_display=true
-
 # Display postprocessing
-vendor.display.enable_default_color_mode=0
+vendor.display.enable_default_color_mode=1
 
 # GNSS
 ro.hardware.flp=brcm
