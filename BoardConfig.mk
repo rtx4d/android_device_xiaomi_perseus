@@ -20,7 +20,7 @@ TARGET_USES_DRM_PP := true
 
 # Kernel
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := perseus_defconfig
+KERNEL_DEFCONFIG := ../perseus_defconfig
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
