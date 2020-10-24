@@ -85,7 +85,7 @@ PRODUCT_PACKAGES += \
     nqnfcse_access.xml \
     se_nq_extn_client \
     Tag \
-    vendor.nxp.hardware.nfc@1.2-service
+    vendor.nxp.hardware.nfc@2.0-service
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
