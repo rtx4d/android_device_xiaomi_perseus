@@ -253,11 +253,11 @@ vendor/lib/libpn553_fw.so
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
 vendor/etc/qdcm_calib_data_visionox_r66455_fhd_cmd_dsi_panel.xml
 
-# Secure element
-vendor/bin/hw/vendor.qti.secure_element@1.0-service
-vendor/etc/init/vendor.qti.secure_element@1.0-service.rc
-vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
-vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
+# Secure element - LA.UM.9.8.r1-02700-SDM710.0
+vendor/bin/hw/vendor.qti.secure_element@1.2-service
+vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
+vendor/lib/android.hardware.secure_element@1.0-impl.so
+vendor/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
 vendor/etc/elliptic_sensor.xml

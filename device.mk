@@ -76,11 +76,14 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     com.gsma.services.nfc \
     com.nxp.nfc.nq \
+    jcos_nq_client \
     libnqnfc_nci_jni \
+    ls_nq_client \
     nfc_nci.nqx.default.hw \
     NQNfcNci \
     nqnfcee_access.xml \
     nqnfcse_access.xml \
+    se_nq_extn_client \
     Tag \
     vendor.nxp.hardware.nfc@1.2-service
 
