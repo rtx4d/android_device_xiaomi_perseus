@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845
 
 # Input
+PRODUCT_PACKAGES += \
+    AuxiliaryKeyHandler \
+    AOSPAPerseusAuxiliaryKeyHandler
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc \
     $(LOCAL_PATH)/idc/uinput-goodix.idc:system/usr/idc/uinput-goodix.idc
