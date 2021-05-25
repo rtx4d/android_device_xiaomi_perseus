@@ -1,0 +1,4 @@
+# Keep keyhandler constructor
+-keep class co.aospa.slider.device.* {
+  *;
+}

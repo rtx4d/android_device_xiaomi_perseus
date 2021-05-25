@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The PixelExperience Project
+     Copyright (C) 2021 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Slider settings -->
+    <string name="slider_settings_title">Жест слайдером</string>
+    <string name="slider_settings_summary">Настройка камеры и звукового эффекта</string>
+    <string name="slider_mode_title">Отключить жест слайдером</string>
+    <string name="slider_mode_summary" />
+
+    <!-- Slider settings: Sounds -->
+    <string name="slider_sound_title">Звук слайдера</string>
+    <string name="slider_sound_summary">Настройка звукового эффекта</string>
+
+    <!-- Slider settings: Sound types -->
+    <string name="slider_sound_door">Железная дверь</string>
+    <string name="slider_sound_jianghu">Воин</string>
+    <string name="slider_sound_jiguan">Механика</string>
+    <string name="slider_sound_keji">Хай-тек</string>
+    <string name="slider_sound_lingdong">Интеллект</string>
+    <string name="slider_sound_zippo">Зажигалка</string>
+    <string name="slider_sound_none">Без звука</string>
+</resources>

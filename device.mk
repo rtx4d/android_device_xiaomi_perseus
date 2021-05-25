@@ -62,8 +62,10 @@ PRODUCT_PACKAGES += \
 
 # Input
 PRODUCT_PACKAGES += \
+    AOSPAPerseusAuxiliaryKeyHandler \
     AuxiliaryKeyHandler \
-    AOSPAPerseusAuxiliaryKeyHandler
+    PerseusKeyHandlers \
+    PerseusSliderKeyHandler
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc \
@@ -85,6 +87,9 @@ TARGET_COMMON_QTI_COMPONENTS += \
 # Secure element
 PRODUCT_PACKAGES += \
     SecureElement
+
+# Slider sounds
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/slider/snd,$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
